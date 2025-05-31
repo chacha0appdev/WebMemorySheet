@@ -113,7 +113,16 @@
     <script language="javascript" type="text/javascript">
       var zoomSlider = document.getElementById('zoomSlider');
       var zoomValue = document.getElementById('zoomValue');
+      var imgPath = document.getElementById('imgPath');
       var img = document.getElementById('img');
+      
+      var url = new URL(window.location.href);
+      var initZoomValue=url.searchParams.get("zoom");
+      if (initZoomValue) {
+        zoomValue.innerHTML = initZoomValue;
+        zoomSlider.value = initZoomValue;
+        img.style.width = `${initZoomValue}%`;
+      }
 
       zoomSlider.addEventListener("input", (e) => {
         const value = e.target.value;
@@ -125,5 +134,10 @@
         zoomValue.innerHTML = value;
         img.style.width = `${value}%`;
       });
+
+      function setImage(path, mimeType, imgData) {
+        img.src = `data:${mimeType};base64,${imgData}`;
+        imgPath.innerHTML = path;
+      }
     </script>
 </html>
