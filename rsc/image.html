@@ -100,7 +100,7 @@
     <table>
       <tr>
         <td style="vertical-align: middle;"><span class="dli-zoom-out"><span></span></span></td>
-        <td style="vertical-align: middle;"><input type="range" id="zoomSlider" min="10" max="200" value="100" /></td>
+        <td style="vertical-align: middle;"><input type="range" id="zoomSlider" min="10" max="200" value="100" style="width:100%;" /></td>
         <td style="vertical-align: middle;"><span class="dli-zoom-in"><span></span></span></td>
       </tr>
     </table>
@@ -135,10 +135,5 @@
         img.style.width = `${value}%`;
       });
 
-      /// 画像表示。
-      function setImage(path, mimeType, imgData) {
-          img.src = `data:${mimeType};base64,${imgData}`;
-          imgPath.innerHTML = path;
-      }
     </script>
 </html>
