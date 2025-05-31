@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>%imgName%</title>
+    <style type="text/css">
+      .dli-zoom-out {
+        display: inline-block;
+        vertical-align: middle;
+        color: #333;
+        line-height: 1;
+        width: 0.7em;
+        height: 0.7em;
+        border: 0.1em solid currentColor;
+        border-radius: 50%;
+        box-sizing: content-box;
+        position: relative;
+      }
+
+      .dli-zoom-out::before {
+        content: '';
+        position: absolute;
+        top: calc(85.35534% + 0.07071em);
+        left: calc(85.35534% + 0.07071em);
+        width: 0.336em;
+        height: 0.1em;
+        background: currentColor;
+        border-radius: 0 0.1em 0.1em 0;
+        transform: translateY(-50%) rotate(45deg);
+        transform-origin: left center;
+      }
+
+      .dli-zoom-out > span {
+        width: 58%;
+        height: 0.1em;
+        background: currentColor;
+        border-radius: 0.1em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      .dli-zoom-in {
+        display: inline-block;
+        vertical-align: middle;
+        color: #333;
+        line-height: 1;
+        width: 0.7em;
+        height: 0.7em;
+        border: 0.1em solid currentColor;
+        border-radius: 50%;
+        box-sizing: content-box;
+        position: relative;
+      }
+
+      .dli-zoom-in::before {
+        content: '';
+        position: absolute;
+        top: calc(85.35534% + 0.07071em);
+        left: calc(85.35534% + 0.07071em);
+        width: 0.336em;
+        height: 0.1em;
+        background: currentColor;
+        border-radius: 0 0.1em 0.1em 0;
+        transform: translateY(-50%) rotate(45deg);
+        transform-origin: left center;
+      }
+
+      .dli-zoom-in > span {
+        width: 58%;
+        height: 0.1em;
+        background: currentColor;
+        border-radius: 0.1em;
+        position: relative;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+      }
+
+      .dli-zoom-in > span::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        border-radius: inherit;
+        transform: rotate(90deg);
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: middle;"><span class="dli-zoom-out"><span></span></span></td>
+        <td style="vertical-align: middle;"><input type="range" id="zoomSlider" min="10" max="200" value="100" /></td>
+        <td style="vertical-align: middle;"><span class="dli-zoom-in"><span></span></span></td>
+      </tr>
+    </table>
+    
+    
+    <div id="zoomValue" style='display:none;'></div>
+    <div id="imgPath" style='display:none;'></div>
+    <img id="img" src="./nowloading.png"  />
+
+    <script language="javascript" type="text/javascript">
+      var zoomSlider = document.getElementById('zoomSlider');
+      var zoomValue = document.getElementById('zoomValue');
+      var img = document.getElementById('img');
+
+      zoomSlider.addEventListener("input", (e) => {
+        const value = e.target.value;
+        zoomValue.innerHTML = value;
+        img.style.width = `${value}%`;
+      });
+      zoomSlider.addEventListener("change", (e) => {
+        const value = e.target.value;
+        zoomValue.innerHTML = value;
+        img.style.width = `${value}%`;
+      });
+    </script>
+</html>
