@@ -124,16 +124,14 @@
         img.style.width = `${initZoomValue}%`;
       }
 
-      zoomSlider.addEventListener("input", (e) => {
+      var zoomListener = (e) => {
         const value = e.target.value;
         zoomValue.innerHTML = value;
-        img.style.width = `${value}%`;
-      });
-      zoomSlider.addEventListener("change", (e) => {
-        const value = e.target.value;
-        zoomValue.innerHTML = value;
-        img.style.width = `${value}%`;
-      });
+        img.with = img.naturalWidth * (value / 100);
+        img.height = img.naturalHeight * (value / 100);
+      };
+      zoomSlider.addEventListener("input", zoomListener);
+      zoomSlider.addEventListener("change", zoomListener);
 
     </script>
 </html>
