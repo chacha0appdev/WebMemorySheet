@@ -134,5 +134,11 @@
         zoomValue.innerHTML = value;
         img.style.width = `${value}%`;
       });
+
+      /// 画像表示。
+      function setImage(path, mimeType, imgData) {
+          img.src = `data:${mimeType};base64,${imgData}`;
+          imgPath.innerHTML = path;
+      }
     </script>
 </html>
