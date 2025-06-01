@@ -1,7 +1,5 @@
 # Privacy Policy
 
-**Last Updated:** June 1, 2025
-
 ## 1. Introduction  
 This application (hereinafter referred to as "this App") respects the privacy of its users and strives to protect personal information. This Privacy Policy explains the types of information collected through the use of this App, the purposes for which the information is used, and how it is managed.
 
@@ -60,3 +58,7 @@ Use by minors requires the consent of their guardians.
 ## 10. Contact  
 For inquiries regarding this Privacy Policy, please contact us at:  
 [chacha0appdev@gmail.com](mailto:chacha0appdev@gmail.com)
+
+---
+
+**Last Updated: June 1, 2025**
