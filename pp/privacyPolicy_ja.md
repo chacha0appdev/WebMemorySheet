@@ -1,74 +1,63 @@
-**Privacy Policy**
+# プライバシーポリシー
 
-This privacy policy applies to the Web Memory Sheet app (hereby referred to as "Application") for mobile devices that was created by Yuki Ishino (hereby referred to as "Service Provider") as a Commercial service. This service is intended for use "AS IS".
+**最終更新日:** 2025年6月1日
 
-**Information Collection and Use**
+## 1. はじめに  
+当アプリ（以下「本アプリ」）は、利用者のプライバシーを尊重し、個人情報の保護に努めています。本プライバシーポリシーは、本アプリの利用にあたり収集する情報の種類、利用目的、管理方法などを説明します。
 
-The Application collects information when you download and use it. This information may include information such as
+## 2. 個人情報
+「個人情報」とは、氏名や住所など、個人を特定できる情報のことを指します。 
 
-*   Your device's Internet Protocol address (e.g. IP address)
-*   The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-*   The time spent on the Application
-*   The operating system you use on your mobile device
+以下は、個人情報保護法に基づく詳細な定義です。  
+「個人情報」とは、個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報及び容貌，指紋，声紋にかかるデータ，及び健康保険証の保険者番号などの当該情報単体から特定の個人を識別できる情報（個人識別情報）を指します。
 
-The Application does not gather precise information about the location of your mobile device.
+## 3. 収集する情報  
+本アプリは、以下の情報を取り扱う場合があります。
 
-The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:
+- カメラで撮影した画像  
+- デバイスに保存されている画像  
+- 端末情報（機種、OSバージョンなど）  
+- ユーザーが入力した情報（例: お問い合わせフォームの内容など）
 
-*   Geolocation Services: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.
-*   Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.
-*   Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.
+なお、画像は端末内でのみ取り扱い、インターネット上への送信や第三者への共有は一切行いません。
+また、本アプリ自体はクッキーや類似技術を使用しませんが、本アプリを通じてアクセスしたウェブサイトがクッキーを利用する場合があります。
+その場合のクッキーの利用については、各ウェブサイトのプライバシーポリシーをご確認ください。
 
-The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+## 4. 情報の利用目的  
+収集した情報および画像は、以下の目的で利用します。
 
-For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to chacha0appdev@gmail.com. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+- 本アプリの提供・改善  
+- 利用状況の分析  
+- 不具合の修正やサポート対応  
+- ユーザーが本アプリ内で画像を閲覧・編集等の操作を行うため  
+- 法令遵守のための対応
+- 本アプリの安全な運営のために、不正利用の監視や必要な対応を行うため
+- 上記の利用目的に付随する目的
 
-**Third Party Access**
+画像データを外部に送信することはありません。
 
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+## 5. 利用目的の変更
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+- 本アプリは、利用目的が変更前と関連性を有すると合理的に認められる場合に限り、個人情報の利用目的を変更するものとします。
+- 利用目的の変更を行った場合には、変更後の目的について、本アプリの所定の方法により、ユーザーに通知し、または本アプリのウェブサイト上に公表するものとします。
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
+## 6. 情報の第三者提供  
+収集した情報は、以下の場合を除き第三者に提供しません。
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+- 利用者の同意がある場合  
+- 法令に基づき開示が必要な場合  
+- サービス提供のために業務委託先に提供する場合（委託先にも適切な管理を義務付けます）
 
-*   as required by law, such as to comply with a subpoena, or similar legal process;
-*   when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-*   with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+## 7. セキュリティ  
+収集した情報は、SSL通信やアクセス制限など適切な安全管理措置を講じて保護しますが、インターネット上の完全な安全性は保証できません。利用者ご自身でも適切なセキュリティ対策をお願いします。
 
-**Opt-Out Rights**
+## 8. 未成年のプライバシー  
+未成年者の個人情報の取り扱いについては、保護者の同意を得た上でご利用ください。
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+## 9. プライバシーポリシーの変更  
+- 本プライバシーポリシーは必要に応じて改訂することがあります。改訂後は本ページに掲載し、重要な変更がある場合は適宜通知します。
+- 変更後のプライバシーポリシーは、本ページに掲載したときから効力を生じるものとします。
 
-**Data Retention Policy**
-
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at chacha0appdev@gmail.com and they will respond in a reasonable time.
-
-**Children**
-
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
-
-The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (chacha0appdev@gmail.com) so that they will be able to take the necessary actions.
-
-**Security**
-
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
-
-**Changes**
-
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
-
-This privacy policy is effective as of 2025-05-25
-
-**Your Consent**
-
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
-
-**Contact Us**
-
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at chacha0appdev@gmail.com.
-
-* * *
-
-This privacy policy page was generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+## 10. お問い合わせ  
+本プライバシーポリシーに関するお問い合わせは、以下の連絡先までお願いいたします。  
+お問い合わせ: [chacha0appdev@gmail.com](mailto:chacha0appdev@gmail.com)
