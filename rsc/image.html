@@ -97,11 +97,11 @@
     </style>
   </head>
   <body>
-    <table>
+    <table style="height: 35px;">
       <tr>
-        <td style="vertical-align: middle;"><span class="dli-zoom-out"><span></span></span></td>
+        <td style="vertical-align: middle;"><span class="dli-zoom-out" id="zoomOut" ><span></span></span></td>
         <td style="vertical-align: middle;"><input type="range" id="zoomSlider" min="10" max="200" value="100" /></td>
-        <td style="vertical-align: middle;"><span class="dli-zoom-in"><span></span></span></td>
+        <td style="vertical-align: middle;"><span class="dli-zoom-in" id="zoomIn"><span></span></span></td>
       </tr>
     </table>
     
@@ -121,6 +121,12 @@
       if (initZoomValue) {
         zoomValue.innerHTML = initZoomValue;
         zoomSlider.value = initZoomValue;
+
+        var zoomOut = document.getElementById('zoomOut');
+        var zoomIn = document.getElementById('zoomIn');
+        zoomOut.style.display = 'none';
+        zoomSlider.style.display = 'none';
+        zoomIn.style.display = 'none';
       }
 
       var zoomListener = (e) => {
